@@ -1,5 +1,5 @@
 {
-  "name": "local-ssl-proxy",
+  "name": "@afroaware/local-ssl-proxy",
   "version": "1.3.0",
   "author": "Cameron Hunter <hello@cameronhunter.co.uk>",
   "description": "Simple SSL HTTP proxy using a self-signed certificate. Intended for local development only.",
@@ -34,5 +34,8 @@
     "rollup": "^0.36.1",
     "rollup-plugin-babel": "^2.4.0",
     "rollup-plugin-json": "^2.0.2"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   }
 }
